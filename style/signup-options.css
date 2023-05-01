@@ -1,0 +1,50 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #256BF4;
+    border: 2px solid #256BF4;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #256BF4;
+    color: #ffffff;
+}
+
+.button-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
